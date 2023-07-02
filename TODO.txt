@@ -1,0 +1,8 @@
+- For the portfolio, have a visual representation of the SFML project. A project name should be under this visual.
+- A toggle system through the different projects.
+- If you hit enter, then it will launch the project.
+- No using .exe files to launch the projects. Instead, we need to create a parent class named Launchable, Runnable,
+whatever you want, and each of your programs should derive from this class.
+
+- Change sf::RenderWindow, to sf::RenderTexture and draw the Launchable to the sf::RenderTexture. A sf::Sprite will
+disply the sf::RenderTexture when we draw the sf::Sprite to the sf::RenderWindow.
